@@ -1,0 +1,22 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  width: 280px;
+  height: 100%;
+  background-color: var(--p-color);
+  color: var(--t-color);
+}
+
+.navLink {
+  padding: 0.8rem 2rem;
+  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.747);
+  transition: all 0.3s ease-in;
+}
+
+.navLink:hover,
+.active {
+  background-color: var(--s-color);
+  border-left: 3px solid rgb(21, 146, 146);
+  color:white
+}
