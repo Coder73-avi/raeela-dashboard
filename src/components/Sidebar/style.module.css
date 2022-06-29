@@ -3,20 +3,32 @@
   top: 0;
   width: 280px;
   height: 100%;
-  background-color: var(--p-color);
-  color: var(--t-color);
+  color: var(--color-dark);
+  padding: 1rem;
+  /* background-color: white; */
 }
 
 .navLink {
-  padding: 0.8rem 2rem;
+  padding: 0.8rem 1rem;
   margin-bottom: 0.5rem;
-  color: rgba(255, 255, 255, 0.747);
+  color: var(--color-dark);
   transition: all 0.3s ease-in;
 }
 
-.navLink:hover,
+.navLink:hover {
+  color: var(--color-primary);
+  margin-left: 0.3rem;
+}
+
 .active {
-  background-color: var(--s-color);
-  border-left: 3px solid rgb(21, 146, 146);
-  color:white
+  background-color: var(--color-light);
+  color: var(--color-primary);
+  border-radius: 10px;
+}
+
+.date > input {
+  padding: 0.4rem 1.3rem;
+  border-radius: 10px;
+  background-color: var(--color-light);
+  font-size: 14px;
 }
